@@ -51,16 +51,6 @@ $ pip install -r requirements.txt   ## To install libs into this file.
 $ pip freeze                        ## to see the installed libs.
 ```
 
-### Running the API application.
-Into the repository directory, execute the following command to generate the migrations for this demo proyect.
-```ssh
-$ ./manage.py migrate       ## build the database
-$ ./manage runserver        ## Run the local server
-$ ./manage createsuperuser  ## Create a new user ovalerio/admin123 is used on tests
-```
-Now you van go to your favorite browser and open this url http://127.0.0.1:8000/ 
-
-
 ### Running all the existing test cases from terminal.
 Here we are going to use behave to execute all the test cases we have in the repository at this point.
 
