@@ -1,4 +1,4 @@
-# Api automation Behave + Requests!
+# Hello Fresh API Challenge!
 ## Pre-requisites
 We need to install the following tools as part of the pre-requisites to be able to run this demo.
 ### Tech.
