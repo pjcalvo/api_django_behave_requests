@@ -1,4 +1,4 @@
-# Api automation Behave + Requests!
+# Hello Fresh API Challenge!
 ## Pre-requisites
 We need to install the following tools as part of the pre-requisites to be able to run this demo.
 ### Tech.
@@ -50,16 +50,6 @@ $ cd api_django_behave_requests     ## Move into the repository folder.
 $ pip install -r requirements.txt   ## To install libs into this file.
 $ pip freeze                        ## to see the installed libs.
 ```
-
-### Running the API application.
-Into the repository directory, execute the following command to generate the migrations for this demo proyect.
-```ssh
-$ ./manage.py migrate       ## build the database
-$ ./manage.py runserver        ## Run the local server
-$ ./manage.py createsuperuser  ## Create a new user ovalerio/admin123 is used on tests
-```
-Now you van go to your favorite browser and open this url http://127.0.0.1:8000/ 
-
 
 ### Running all the existing test cases from terminal.
 Here we are going to use behave to execute all the test cases we have in the repository at this point.
